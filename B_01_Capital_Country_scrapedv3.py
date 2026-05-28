@@ -548,7 +548,7 @@ class DisplayHints:
         self.help_heading_label = Label(self.help_frame,
                                         bg=background,
                                         text="Hints",
-                                        font=("Arial", 14, "bold"))
+                                        font=("Arial", 18, "bold"))
         self.help_heading_label.grid(row=0)
 
         help_text = (f"This is the hints Page below this text will be "
